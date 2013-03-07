@@ -1,0 +1,51 @@
+body {
+	padding-top: 60px;
+	padding-bottom: 40px;
+	background: url("../img/bg.jpg");
+}
+
+.border-radius {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 30px;
+  color: inherit;
+  background-color: #ffffff;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+/* Custom container */
+.container-narrow {
+	margin: 0 auto;
+	max-width: 950px;
+}
+
+.container-narrow>hr {
+	margin: 20px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+	margin: 60px 0;
+	text-align: center;
+}
+
+.jumbotron h1 {
+	font-size: 72px;
+	line-height: 1;
+}
+
+.jumbotron .btn {
+	font-size: 21px;
+	padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+	margin: 60px 0;
+}
+
+.marketing p+h4 {
+	margin-top: 28px;
+}
